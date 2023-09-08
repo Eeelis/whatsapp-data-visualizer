@@ -3,7 +3,7 @@ This program generates charts to visualize various statistics from WhatsApp chat
 
 How to use:
 
-1. [Export your whatsapp chat history](https://faq.whatsapp.com/1180414079177245/?cms_platform=android)
+1. [Export your WhatsApp chat history](https://faq.whatsapp.com/1180414079177245/?cms_platform=android)
 2. Save the resulting .txt file in the same directory as main.py. Make sure the file is named "Log.txt"
 3. Run main.py
 
