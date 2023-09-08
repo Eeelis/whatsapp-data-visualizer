@@ -15,7 +15,7 @@ fb = FigureBuilder(chat=chat)
 
 def main():
 
-	show_graphs = False
+	show_graphs = True
 
 	messages = []
 	words = []
@@ -27,10 +27,10 @@ def main():
 	for row in messages:
 
 		row = re.sub('[^A-Öa-ö0-9]+', " ", row)
-		querywords = row.split()
-		resultwords  = [word for word in querywords if word.lower() not in non_words and len(word) > 1]
+		query_words = row.split()
+		result_words  = [word for word in query_words if word.lower() not in non_words and len(word) > 1]
 
-		for word in resultwords:
+		for word in result_words:
 			words.append(word)
 
 	if show_graphs:
