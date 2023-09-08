@@ -1,5 +1,3 @@
-import whatstk
-
 #https://towardsdatascience.com/analyzing-whatsapp-chats-with-python-20d62ce7fe2d
 #https://whatstk.readthedocs.io/en/stable/source/about.html
 
