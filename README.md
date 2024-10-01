@@ -1,5 +1,5 @@
 # whatsapp-data-visualizer
-This program generates charts to visualize various statistics from WhatsApp chat data.
+A program that generates charts to visualize various statistics from WhatsApp group chats.
 
 How to use:
 
